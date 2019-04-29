@@ -1,0 +1,9 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: brock-bus
+spec:
+  selector:
+    app: brock-bus
+  ports:
+    - port: 80

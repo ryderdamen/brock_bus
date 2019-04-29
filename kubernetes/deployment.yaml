@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: brock-bus
+  labels:
+    app: brock-bus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: brock-bus
+  template:
+    metadata:
+      labels:
+        app: brock-bus
+    spec:
+      containers:
+      - name: brock-bus
+        image: gcr.io/radical-sloth/brock-bus
+        ports:
+        - containerPort: 80

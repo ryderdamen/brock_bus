@@ -1,0 +1,6 @@
+# Regular Stuff
+.vscode/
+**/.DS_Store
+
+# Project Stuff
+src/keys.php
