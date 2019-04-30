@@ -82,19 +82,19 @@ foreach ($xml->prd as $prediction) {
 		   
         
     
-	echo "<a href='map.php?vid={$vid}'>
-        <div class='arrivalpanel'>
-	       <div class='busnumber'>
-		      <h2>{$route}</h2>
-	       </div>
-	       <div class='busdescrip'>
-		      <p>{$to}</p>
-	       </div>
-	       <div class='arrivaltime'>
-		      <h3>{$mins}</h3>
-	       </div>
+	echo "
+    <div class='arrivalpanel'>
+        <div class='busnumber'>
+            <h2>{$route}</h2>
         </div>
-    </a>";
+        <div class='busdescrip'>
+            <p>{$to}</p>
+        </div>
+        <div class='arrivaltime'>
+            <h3>{$mins}</h3>
+        </div>
+    </div>
+    ";
     
 # End of foreach
 }

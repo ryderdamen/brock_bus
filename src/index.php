@@ -27,7 +27,7 @@ Designed and built by Ryder Damen, 2014
 
             setInterval(function () {
                 $("#predictions").load("schedule.php");
-            }, 10000);
+            }, 30000);
 
         });
     </script>
