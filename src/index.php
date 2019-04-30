@@ -17,7 +17,7 @@ Designed and built by Ryder Damen, 2014
     <link rel='stylesheet' media='screen and (max-width: 900px)' href='/static/css/mobile.css' />
     <link rel='stylesheet' media='screen and (max-device-width: 900px)' href='/static/css/mobile.css' />
     <meta http-equiv='refresh' content='10800'>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script>
         $.ajaxSetup({
             cache: false
